@@ -102,7 +102,7 @@ objects:
         - env:
           - name: ES_CLUSTER_ADDRESS
             value: ${ELASTICSEARCH_CLUSTER_ADDRESS}
-          image: ${IMAGE_PREFIX}/origin-cerebro:${IMAGE_VERSION}
+          image: ${IMAGE_PREFIX}:${IMAGE_VERSION}
           imagePullPolicy: Always
           name: cerebro
           ports:
@@ -130,7 +130,7 @@ objects:
     - type: ConfigChange
 parameters:
 - name: IMAGE_PREFIX
-  value: "docker-registry.engineering.redhat.com/ocp-int-services/origin-cerebro"
+  value: "phlbrz/openshift-cerebro"
   required: true
 - name: IMAGE_VERSION
   value: "latest"
@@ -142,7 +142,7 @@ parameters:
   value: "logging-elasticsearch"
   required: true
 - name: BUILD_REPO_URI
-  value: "https://github.com/jcantrill/openshift-cerebro"
+  value: "https://github.com/phlbrz/openshift-cerebro"
   required: true
 - name: ELASTICSEARCH_CLUSTER_ADDRESS
   value: "logging-es"
