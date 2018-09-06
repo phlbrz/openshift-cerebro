@@ -1,5 +1,5 @@
 ## Description
-Openshift Docker image to run cerebro [Elasticsearch 6.x](https://www.elastic.co/products/elasticsearch) web admin tool that replaces [Kopf](https://github.com/lmenezes/elasticsearch-kopf).
+Openshift Docker image to run cerebro [Elasticsearch](https://www.elastic.co/products/elasticsearch) web admin tool that replaces [Kopf](https://github.com/lmenezes/elasticsearch-kopf).
 
 Cerebro project: https://github.com/lmenezes/cerebro
 
