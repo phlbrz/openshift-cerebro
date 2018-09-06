@@ -9,8 +9,7 @@ This Docker image is built and available in Docker hub [phlbrz/openshift-cerebro
 
 `phlbrz/openshift-cerebro` tagged images:
 
-* `latest` (default): Latest version of Cerebro.
-* `0.8.1`: Cerebro 0.8.1
+* `latest` (default): `0.8.1` - Latest version of Cerebro.
 
 ## Usage
 `oc create -f https://raw.githubusercontent.com/phlbrz/openshift-cerebro/master/cerebro-template.yaml -n project`
